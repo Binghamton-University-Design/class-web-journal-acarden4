@@ -1,83 +1,173 @@
 {
 "key" :
   { 
-    "Do you  eat breakfast?": {
+    "Do you prefer apple or Microsoft products": {
       "x" : 0,
       "y" : 0,
-      "always" : "1_always.png",
-      "often" : "1_often.png",
-      "sometimes" : "1_sometimes.png",
-      "hardly ever" : "1_hardly-ever.png",
-      "never" : "1_never.png",
+      "Apple" : "LightSkin.png",
+      "Microsoft" : "TanSkin.png",
+      "No Preference" : "DarkSkin.png",
       "is_text" : false
     },
-    "What is your first beverage of the day?": {
-      "x" : 30,
-      "y" : 60,
-      "coffee" : "02_coffee.png",
-      "tea" : "02_tea.png",
-      "water" : "02_water.png",
-      "juice" : "02_juice.png",
+    "Have you customized your preferred device?": {
+      "x" : 0,
+      "y" : 0,
+     "Yes" : "F.png",
+      "No" : "NF.png",
+      "is_text" : false,
+      "determined_by" : "Do you prefer apple or Microsoft products"
+    },
+    "How much do you depend on your preferred device?": {
+      "x" : 0,
+      "y" : 0,
+      "Not dependent" : "Bl.png",
+      "Somewhat dependent" : "Br.png",
+      "Very dependent" : "G.png",
       "is_text" : false
     },
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": {
-      "x" : 263,
-      "y" : 28,
-      "1" : "3-1.png",
-      "2" : "3-2.png",
-      "3" : "3-3.png",
-      "4" : "3-4.png",
-      "5" : "3-5.png",
+    "Is your device damaged at all?": {
+      "x" : 0,
+      "y" : 0,
+      "Yes" : "E1.png",
+      "No" : "E2.png",
+      "is_text" : false,
+      "determined_by" : "How much do you depend on your preferred device?"
+    },
+    "How does your preferred device make you feel?": {
+      "x" : 0,
+      "y" : 0,
+      "Angry" : "R.png",
+      "Annoyed" : "O.png",
+      "Somewhat happy" : "Y.png",
+      "Happy" : "OMY.png",
+      "Elated" : "OMB.png",
+      "No feeling" : "B.png",
       "is_text" : false
     },
-    "I can't think unless I have breakfast.": {
-      "x" : 132,
-      "y" : 72,
-      "TRUE" : "4-true.png",
-      "FALSE" : "4-false.png",
+    "How many devices do you own?": {
+      "x" : 0,
+      "y" : 0,
+      "1" : "HS1.png",
+      "2" : "HS2.png",
+      "3" : "HS3.png",
+      "4" : "HS4.png",
+      "More" : "HS5.png",
+      "is_text" : false,
+      "determined_by": "How does your preferred device make you feel?"
+    },
+    "What is your preferred device to use?": {
+      "x" : 0,
+      "y" : 0,
+      "Computer/Laptop" : "Shirt1.png",
+      "Phone" : "Shirt2.png",
+      "Tablet" : "Shirt3.png",
+      "Other" : "Shirt4.png",
       "is_text" : false
     },
-    "An ideal breakfast would include:": {
-      "x" : 32,
-      "y" : 370,
-      "is_text" : true
+      "How long can you go without your preferred device?": {
+      "x" : 0,
+      "y" : 0,
+      "Less than 1 hour" : "Smile1.png",
+      "1 to 2 hours" : "Smile2.png",
+      "More than 2 hours" : "Smile3.png",
+      "is_text" : false
+    },
+      "Do you use your preferred device for recreational purposes?": {
+      "x" : 0,
+      "y" : 0,
+      "Yes" : "Glasses.png",
+      "No" : "blank.png",
+      "is_text" : false
     }
   },
 "data" : [
   {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "water",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 4,
-    "An ideal breakfast would include:": "egg and cheese"
+    "Do you prefer apple or Microsoft products": "No Preference",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Happy",
+    "How many devices do you own?": 4,
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
   },
   {
-    "Do you  eat breakfast?": "never",
-    "I can't think unless I have breakfast.": "FALSE",
-    "What is your first beverage of the day?": "coffee",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 3,
-    "An ideal breakfast would include:": "a bloody mary"
+    "Do you prefer apple or Microsoft products": "Apple",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "No feeling",
+    "How many devices do you own?": 4,
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
   },
   {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "water",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 3,
-    "An ideal breakfast would include:": "Pancakes and strawberry compote"
+    "Do you prefer apple or Microsoft products": "Microsoft",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Happy",
+    "How many devices do you own?": "More",
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
   },
   {
-    "Do you  eat breakfast?": "always",
-    "I can't think unless I have breakfast.": "TRUE",
-    "What is your first beverage of the day?": "coffee",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 5,
-    "An ideal breakfast would include:": "coffee, yogurt, fruit, granola"
+    "Do you prefer apple or Microsoft products": "Microsoft",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Happy",
+    "How many devices do you own?": 2,
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
   },
   {
-    "Do you  eat breakfast?": "hardly ever",
-    "I can't think unless I have breakfast.": "FALSE",
-    "What is your first beverage of the day?": "juice",
-    "On a scale of 1 to 5 how important would you say breakfast is to you?": 2,
-    "An ideal breakfast would include:": "Tequila and takis"
+    "Do you prefer apple or Microsoft products": "Microsoft",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Somewhat dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Happy",
+    "How many devices do you own?": "More",
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
+  },
+  {
+    "Do you prefer apple or Microsoft products": "No Preference",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "Yes",
+    "How does your preferred device make you feel?": "Somewhat happy",
+    "How many devices do you own?": 4,
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "1 to 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
+  },
+  {
+    "Do you prefer apple or Microsoft products": "Apple",
+    "Have you customized your preferred device?": "No",
+    "How much do you depend on your preferred device?": "Very dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Somewhat happy",
+    "How many devices do you own?": 3,
+    "What is your preferred device to use?": "Phone",
+    "How long can you go without your preferred device?": "Less than 1 hour",
+    "Do you use your preferred device for recreational purposes?": "Yes"
+  },
+  {
+    "Do you prefer apple or Microsoft products": "Apple",
+    "Have you customized your preferred device?": "Yes",
+    "How much do you depend on your preferred device?": "Somewhat dependent",
+    "Is your device damaged at all?": "No",
+    "How does your preferred device make you feel?": "Happy",
+    "How many devices do you own?": 2,
+    "What is your preferred device to use?": "Computer/Laptop",
+    "How long can you go without your preferred device?": "More than 2 hours",
+    "Do you use your preferred device for recreational purposes?": "Yes"
   }
 ]
 }
